@@ -1,24 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './Components/Home';
+import Services from './Components/Services';
+import Products from './Components/Products';
+import SpecialtyTools from './Components/SpecialtyTools';
+import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="navbar-routes">
+          <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>  
+          <Route exact path="/Services">
+            <Services />
+          </Route>
+          <Route exact path="/Products">
+            <Products />
+          </Route> 
+          <Route exact path="/SpecialtyTools">
+            <SpecialtyTools />
+          </Route> 
+          <Route exact path="/Contact">
+            <Contact />
+          </Route> 
+          </Switch>
+        </div>
+        <div className="footer">
+        <footer className="footer">
+                <p>To speak with a sales representative, call 1-800-737-3546</p>
+                <p>
+                © Copyright 2020 Deep South Chemical, Inc.<br/>
+                For more information,<br/>
+                email: info@deep-south-chemical.com
+                </p>
+        </footer>
+        </div>
+      </div>
+    </Router>
   );
 }
 
