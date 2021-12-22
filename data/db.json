@@ -1,0 +1,89 @@
+{
+    "contact": [
+        {
+            "name": "Warren J. Ray",
+            "title": "President, Chief Executive Officer",
+            "email": "info@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "1"
+        },
+        {
+            "name": "Glenn Ray",
+            "title": "Chief Operating Officer",
+            "email": "glennr@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "2"
+        },
+        {
+            "name": "Lynn Ray",
+            "title": "Sr. Vice President Marketing",
+            "email": "lynnray@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "3"
+        },
+        {
+            "name": "Herman Guillary",
+            "title": "Technical Sales",
+            "email": "hermanguillory@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "4"
+        },
+        {
+            "name": "Thomas Morgan",
+            "title": "Lab Supervisor",
+            "email": "tmorgan@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "5"
+        },
+        {
+            "name": "Jeff Voorhies",
+            "title": "Account Manager",
+            "email": "jeffvoorhies@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "6"
+        },
+        {
+            "name": "Steven Sonnier",
+            "title": "Chief Financial Officer",
+            "email": "ssonnier@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "7"
+        },
+        {
+            "name": "Douglas Spell",
+            "title": "Tool Shop Manager",
+            "email": "info@deep-south-chemical.com",
+            "location":"Corporate Office",
+            "id": "8"
+        },
+        {
+            "name": "David Hines",
+            "title": "Vice President Technical Services",
+            "email": "lynnray@deep-south-chemical.com",
+            "location":"Louisiana Regional Office",
+            "id": "9"
+        },
+        {
+            "name": "Chief Paworiso Samuel Horsfall",
+            "title": "",
+            "email": "ChiefPaworisoSamuelHorsfall@deep-south-chemical.com, C/O Paxcy & Horsley LTD,  Plot 1 Road 1 Extention Agip Estate Rumueme, Port Harcourt Nigeria, Tel 011-234-83-033103044",
+            "location":"DSC Nigeria",
+            "id": "10"
+        },
+        {
+            "name": "Bo Dontoni",
+            "title": "General Manager - Upstream Industries",
+            "email": "bo.dontoni@a-integratedservices.com, Telephone: +244 999229955 /  +244 923 115544",
+            "location":"DSC Angola Africa",
+            "id": "11"
+        },
+        {
+            "name": "Abdulaziz Alamoudi",
+            "title": "General Manager - Upstream Industries",
+            "email": "a.alamoudi@midadholdings.com, Mobile:+966-56 812 2150, Telephone : +966-13-8490222 Ext. 444, Facsimile: +966-13-887417",
+            "location":"DSC Middle East",
+            "id": "12"
+        }
+
+    ]
+}

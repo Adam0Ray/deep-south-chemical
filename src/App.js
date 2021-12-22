@@ -6,6 +6,7 @@ import Services from './Components/Services';
 import Products from './Components/Products';
 import SpecialtyTools from './Components/SpecialtyTools';
 import Contact from './Components/Contact';
+import ContactList from './Components/ContactList';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             <SpecialtyTools />
           </Route> 
           <Route exact path="/Contact">
-            <Contact />
+            <Contact/>
           </Route> 
           </Switch>
         </div>

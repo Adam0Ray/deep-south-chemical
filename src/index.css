@@ -3,28 +3,6 @@
   background-color: none;
 }
 
-* {
-  margin: 10px;
-  font-family: "Quicksand";
-  color: #333;
-}
-h1 {
-      color: black;
-    background-color: tan;
-    border-radius: 8px;
-}
-h2 {
-  color: black;
-  background-color: tan;
-  border-radius: 8px;
-}
-p {
-  color: black;
-  background-color: none;
-  border-radius: 8px;
-}
-
-
 .navbar {
   padding: 20px;
   display: flex;
@@ -51,3 +29,55 @@ p {
 .navbar a:hover {
   color:green;
 }
+.contact-filter button{
+  margin-left: 16px;
+  text-decoration:none;
+  padding: 6px;
+  background-color: tan;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.contact-list {
+width: 100%;
+margin: 10px auto;
+list-style-type: none;
+}
+.contact-list ul{
+padding: 0;
+list-style-type: none;
+}
+.contact-list li {
+  border: 1px solid black;
+  display: inline-flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 4px 4px 6px tan;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+* {
+  margin: 10px;
+  font-family: "Quicksand";
+  color: #333;
+}
+h1 {
+      color: black;
+    background-color: tan;
+    border-radius: 8px;
+}
+h2 {
+  color: black;
+  background-color: tan;
+  border-radius: 8px;
+}
+p {
+  color: black;
+  background-color: none;
+  border-radius: 8px;
+}
+
+
+
