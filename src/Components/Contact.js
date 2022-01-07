@@ -1,9 +1,12 @@
-import ContactList from "./ContactList";
+import {useState} from 'react'
+import ContactList from "./ContactList"
 
 const Contact = () => {
+const [showContacts, setShowContacts] = useState(true)
+
     return (  
         <div className="contact-container">
-            <><ContactList/></>
+            <>{showContacts && <ContactList/>}</>
             
         </div>
     );
