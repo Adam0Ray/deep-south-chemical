@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import { useSignup } from '../../hooks/useSignup'
-// styles
-import './Signup.css'
+import { useSignup } from '../hooks/useSignup'
 
 export default function Signup() {
   const [email, setEmail] = useState('')
@@ -26,7 +24,7 @@ export default function Signup() {
       return
     }
     if (!selected.type.includes('image')) {
-      setThumbnailError('Selected file must be an image')
+      setThumbnailError('Please Select an image')
       return
     }
     if (selected.size > 500000) {
@@ -36,7 +34,6 @@ export default function Signup() {
     
     setThumbnailError(null)
     setThumbnail(selected)
-    console.log('thumbnail updated')
   }
 
   return (

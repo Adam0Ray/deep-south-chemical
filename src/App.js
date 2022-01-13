@@ -1,25 +1,25 @@
-import './App.css';
+import './App.css'
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import { useAuthContext } from './hooks/useAuthContext';
+import { useAuthContext } from './hooks/useAuthContext'
 
 //Navbar Components
-import Navbar from './Components/Navbar/Navbar';
-import Home from './Components/Home';
-import Services from './Components/Services';
-import Products from './Components/Products';
-import SpecialtyTools from './Components/SpecialtyTools';
-import Contact from './Components/Contact';
-// import ContactList from './Components/ContactList';
+import Navbar from './Components/Navbar/Navbar'
+import Home from './Components/Home'
+import Services from './Components/Services'
+import Products from './Components/Products'
+import SpecialtyTools from './Components/SpecialtyTools'
+import Contact from './Components/Contact'
+
 
 //Login Components
-import Dashboard from './pages/dashboard/Dashboard'
-import Create from './pages/create/Create'
-import Login from './pages/login/Login'
-import Signup from './pages/signup/Signup'
-import Project from './pages/project/Project'
+import Dashboard from './Components/Dashboard'
+import Create from './Components/Create'
+import Login from './Components/Login'
+import Signup from './Components/Signup'
+import Project from './Components/Project'
 import Sidebar from './Components/SideBar/Sidebar'
-import OnlineUsers from './Components/OnlineUsers';
+import OnlineUsers from './Components/OnlineUsers'
 
 function App() {
   const {user, authIsReady} = useAuthContext()
@@ -51,24 +51,24 @@ function App() {
             </Switch>
             
             <Switch>
-              <Route exact path="/dashboard">
-                {!user && <Redirect to='/home' />}
+              <Route exact path="/Dashboard">
+                {!user && <Redirect to='/Dashboard' />}
                 {user && <Dashboard />}
               </Route>
-              <Route exact path="/create">
-                {!user && <Redirect to='/home' />}
+              <Route exact path="/Create">
+                {!user && <Redirect to='/Dashboard' />}
                 {user && <Create />}
               </Route>
-              <Route exact path="/projects/:id">
-                {!user && <Redirect to='/home' />}
+              <Route exact path="/Projects/:id">
+                {!user && <Redirect to='/Dashboard' />}
                 {user && <Project />}
               </Route>
-              <Route exact path="/login">
-                {user && <Redirect to ='/home'/>}
+              <Route exact path="/Login">
+                {user && <Redirect to ='/Dashboard'/>}
                 {!user && <Login />}
               </Route>
-              <Route exact path="/signup">
-                {user && <Redirect to ='/home'/>}
+              <Route exact path="/Signup">
+                {user && <Redirect to ='/Dashboard'/>}
                 {!user && <Signup />}
               </Route>
             </Switch>
