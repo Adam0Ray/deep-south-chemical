@@ -9,9 +9,11 @@ import { useHistory } from 'react-router-dom'
 
 const categories = [
   { value: 'development', label: 'Development' },
-  { value: 'design', label: 'Design' },
+  { value: 'operations', label: 'Operations' },
   { value: 'sales', label: 'Sales' },
   { value: 'marketing', label: 'Marketing' },
+  { value: 'finance', label: 'Finance' },
+  { value: 'lab', label: 'Lab' },
 ]
 
 export default function Create() {

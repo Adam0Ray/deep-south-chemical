@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/* Project Filter */
+.project-filter {
+  margin: 30px auto;
+}
+.project-filter nav {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.project-filter p {
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+.project-filter button {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--text-color);
+  cursor: pointer;
+  border-right: 1px solid #e4e4e4;
+  font-size: 0.9em;
+}
+.project-filter button:last-child {
+  border: 0;
+}
+.project-filter button.active {
+  color: var(--primary-color);
+} 
+
+/* Project Comments */
 .project-comments label {
   margin-bottom: 0px;
 }
@@ -40,6 +72,7 @@
   font-size: 0.9em;
 }
 
+/* Project Summary */
 .project-summary {
   background-color: #fff;
   padding: 30px;
@@ -71,6 +104,7 @@
   margin-top: 20px;
 }
 
+/* Project Details */
 .project-details {
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -78,6 +112,7 @@
   grid-gap: 60px;
 }
 
+/* Project List */
 .project-list {
   margin-top: 40px;
   display: grid;
@@ -118,6 +153,7 @@
   height: 30px;
 }
 
+/* Login Form */
 .auth-form {
   max-width: 250px;
   margin: 60px auto;
@@ -126,22 +162,13 @@
   box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
   background: #fff;
 }
-input{
-  width: 200px;
-}
-.btn {
-  margin-left: 16px;
-  text-decoration:none;
-  padding: 6px;
-  background-color: tan;
-  font-weight: bold;
-  border-radius: 8px;
-  font-size: 8;
-}
 
+/* Create a new Project Form */
 .create-form {
   max-width: 600px;
 }
+
+/* User list |Right side bar|  while logged in */
 .user-list .online-user {
   display: inline-block;
   margin-right: 10px;
@@ -179,6 +206,8 @@ input{
   width: 40px;
   height: 40px;
 }
+
+/* User Avatar */
 .avatar {
   display: inline-block;
   width: 50px;
@@ -190,6 +219,8 @@ input{
   width: 100%;
   height: 100%;
 }
+
+/* Left Sidebar while logged in */
 .sidebar {
   width: 200px;
   min-width: 200px;
@@ -241,6 +272,8 @@ input{
 .sidebar .links .active img {
   filter: invert(40%);
 }
+
+/* Top Navbar with links to pages */
 .navbar {
   padding: 10px auto;
   display: flex;
@@ -283,6 +316,7 @@ input{
 display: block;
 }
 
+/* Contact filters */
 .contact-filter button{
   margin-left: 16px;
   text-decoration:none;
@@ -312,6 +346,7 @@ list-style-type: none;
   margin: 5px 0;
 }
 
+/* Global styling */
 
 * {
   margin: 10px;
@@ -333,6 +368,18 @@ p {
   color: black;
   background-color: none;
   border-radius: 8px;
+}
+input {
+  width: 200px;
+}
+.btn {
+  margin-left: 16px;
+  text-decoration:none;
+  padding: 6px;
+  background-color: tan;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 8;
 }
 
 
