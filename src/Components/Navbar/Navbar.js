@@ -12,7 +12,7 @@ const Navbar = () => {
                         width: "100%"
                     }}/>
             <nav className="navbar">
-                    <div className="links">
+                    
                         <Link to="/">Home</Link>
                         <Link to="/Services">Services</Link>
                         <Link to="/Products">Products</Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
                             {isPending && <button className="logout-btn" disabled>Logging out...</button>}
                             </>
                         )}
-                    </div>
+                    
 
                 
             </nav>
