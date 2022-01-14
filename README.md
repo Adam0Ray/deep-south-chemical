@@ -1,6 +1,9 @@
 Deep South Chemical
+
 Summary
+
 Deep South Chemical website is a refresh of an existing business website which includes interactive filtering, employee user login, and a project management tool for employees.
+
 Technologies Used:
 	• React 
 	• HTML
@@ -18,9 +21,11 @@ Pages
 	• Contact Page
 	• Login Page
 	• Dashboard Page for logged in users to interact with project management
+
 Public User is able to
 	• View Main pages
 	• filter contacts
+    
 Logged in User is able to
 	• register/login with an account
 	• upload a user avatar/photo
