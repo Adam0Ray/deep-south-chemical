@@ -12,7 +12,7 @@ export default function ContactList() {
     return (
         <div className="contact-list">
 
-            <h2>Contact List</h2>
+            <h1>Contact List</h1>
             {isPending && <div>Loading Contacts...</div>}
             {error && <div>{error}</div>}
             <div className="contact-filter">
