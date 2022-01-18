@@ -1,7 +1,7 @@
 import { AuthContext } from "../context/AuthContext"
 import { useContext } from "react"
 
-//alows us to use the AuthContext.js in context folder
+//allows us to use the AuthContext.js in context folder
 
 
 export const useAuthContext = () => {

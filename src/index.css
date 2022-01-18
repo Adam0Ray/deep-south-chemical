@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+/* Products */
+.products li{
+  padding: 0px;
+  margin: 0px;
+  border-bottom: black 1px solid;
+  margin-top: 10px;
+  list-style-type: none;
+  
+}
+.products a{
+  color: green;
+}
+.products ul{
+  margin: 0px;
+  padding: 0px;
+}
 /* Project Filter */
 .project-filter {
   margin: 30px auto;
@@ -42,40 +57,50 @@
 
 .project-comments h4 {
   color: var(--heading-color);
+  margin: 0px;
+}
+.project-comments ul {
+  padding: 0px;
+  margin: 0px;
 }
 .project-comments li {
-  padding: 16px;
+  padding: 0px;
+  margin: 0px;
   border-radius: 4px;
-  border: 1px solid #f2f2f2;
-  margin-top: 20px;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+  border: 1px solid black;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px black;
   background: #fff;
   list-style-type: none;
+}
+.project-comments p {
+  margin: 0px;
+  padding: 0px;
 }
 .comment-author {
   display: flex;
   align-items: center;
-  color: var(--title-color);
+  color: black;
+  font-weight: bold;
 }
 .comment-author .avatar {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
-}
+  margin: 0px;
+ }
 .comment-date {
-  color: var(--text-color);
+  color: grey;
   font-size: 0.9em;
-  margin: 4px 0 10px;
+  margin: 10px;
 }
 .comment-content {
-  color: var(--text-color);
+  color: black;
   font-size: 0.9em;
 }
 
 /* Project Summary */
 .project-summary {
-  background-color: #fff;
-  padding: 30px;
+  padding: 0px;
   border-radius: 4px;
 }
 .project-summary .due-date {
@@ -89,13 +114,18 @@
   line-height: 1.8em;
   font-size: 0.9em;
 }
+.project-summary .page-title{
+  margin: 0;
+}
 .project-summary h4 {
   color: var(--text-color);
   font-size: 0.9em;
+  margin: 0px;
 }
 .project-summary .assigned-users {
   display: flex;
   margin-top: 20px;
+  margin-left: 0px;
 }
 .project-summary .assigned-users .avatar {
   margin-right: 10px;
