@@ -12,6 +12,9 @@ service cloud.firestore {
     match /Contacts/{document} {
       allow read: if true;
     }
+    match /tools/{document} {
+      allow read: if true;
+    }
   }
 }
 

@@ -288,7 +288,7 @@ const Products = () => {
                     <li>Methanol
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FMethanol-MSDS-GHS_SDS%206-1-15.pdf?alt=media&token=01b9a710-4ceb-4c95-a77a-13a937f6b898">SDS</a>                       
                     </li>
-                    <li>NTA(Nitrilotriacetic Acid, Trisoidum Salt, Monohydrate)
+                    <li>NTA(Nitrilotriacetic Acid, Trisodium Salt, Monohydrate)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FNTA_DSC_GHS.pdf?alt=media&token=3883c136-cdac-443e-9e07-ca6f8b5c2e36">SDS</a>                       
                     </li>
                     <li>Norkool SLH50
