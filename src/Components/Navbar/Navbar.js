@@ -7,10 +7,7 @@ const Navbar = () => {
     const {user} = useAuthContext()
     return (  
         <div>
-            <img className="img-HomeHeader" src={HomeHeader} alt="HomeHeader image"style={{
-                        borderRadius: "8px",
-                        width: "100%"
-                    }}/>
+            <img className="img-HomeHeader" src={HomeHeader} alt="HomeHeader image"/>
             <nav className="navbar">
                     
                         <Link to="/">Home</Link>

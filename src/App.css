@@ -1,10 +1,9 @@
 .container{
-  display:flex;
+  display: flex;
 }
 .footer{
   position: inherit;
   text-align: center;
-  margin-left: 16px;
   text-decoration:none;
   padding: 10px;
   font-weight: bold;
