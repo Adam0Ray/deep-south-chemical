@@ -28,14 +28,14 @@ padding: 0px;
 .speciality-tools-container img{
   display: flex;
   float: left;
-  max-height: 200px;
+  max-height: 300px;
   width: auto;
   margin: 0px;
   padding: 0px;
 }
 .tool-specs img {
-  margin-left: 100px;
-  max-height: 200px;
+  margin-left: 150px;
+  max-height: 300px;
   width: auto;
 }
 /* .tool-specs:hover {
@@ -53,10 +53,14 @@ padding: 0px;
 
 
 .tool-content{
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 /* Products */
+.products-container{
+  margin: 0px;
+  padding: 0px;
+}
 .products li{
   padding: 0px;
   margin: 0px;
@@ -323,6 +327,7 @@ padding: 0px;
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
+  float: left;
   align-items: left;
   background-color: tan;
   
@@ -377,7 +382,7 @@ padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  width: max-content;
   border-bottom: 1px solid black;
 }
 
@@ -406,6 +411,7 @@ padding: 0px;
 
 .navbar-routes div{
 display: block;
+float: inherit;
 }
 
 /* Contact filters */
