@@ -118,6 +118,10 @@ const Products = () => {
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Cide_GHS.pdf?alt=media&token=a43d88ef-14f0-4220-bf90-e057fb183b49">SDS</a>  
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20CIDE.pdf?alt=media&token=71de8412-a079-4521-9816-4df361e989e7">TDS</a>                      
                     </li>
+                    <li>DSC Defoamer (Alcohol Based)
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDefoamer_(DSC%20Alcohol%20Based)_GHS_SDS.pdf?alt=media&token=745cfdb3-9fb4-4451-a175-1d6b1bb89235">SDS</a> 
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20DEFOAMER.pdf?alt=media&token=2aa13499-9f0b-4d87-b601-cddd14f6bad4">TDS</a>                      
+                    </li>
                     <li>DSC Friction Reducer (liquid)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_FRICTION_REDUCER_SDS.pdf?alt=media&token=b90d8f92-a056-4b99-b745-98cd108c5384">SDS</a>  
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20Friction%20Reducer%20_Liquid_.pdf?alt=media&token=c8094a4f-4517-4f09-9d0a-177d2066ed21">TDS</a>                     
@@ -127,6 +131,9 @@ const Products = () => {
                     </li>
                     <li>DSC GEOVIS XT
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_GEOVIS.pdf?alt=media&token=b40c101b-3718-48ad-889c-2c336dbbfc0b">SDS</a>                       
+                    </li>
+                    <li>DSC Gold Clean
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2Fgold%20clean.pdf?alt=media&token=c33cbb08-a202-43b1-ac17-073d026ef6d2">TDS</a>                         
                     </li>
                     <li>DSC Gold Flush CM
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Gold_Flush_CM_sds.pdf?alt=media&token=d91c5560-2f4c-434e-b0eb-7236752c2d4e">SDS</a> 
@@ -219,16 +226,19 @@ const Products = () => {
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_TREAT_O_CLAY_(CONLON%20SURF%20CST-2800%20SDS%20Rev%201).pdf?alt=media&token=28ce892b-4e50-42f1-9e80-b4dfe3f7b077">SDS</a>        
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FTreat-O-Cla%20Complete%20info.pdf?alt=media&token=41641652-96bb-4b35-a40a-1429b1f04887">TDS</a>               
                     </li>
-                    <li>MIRANOL FBS
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_VERSION_MIRANOL_FBS_SDS.pdf?alt=media&token=c2e090ae-0cf1-4799-aaa2-5229b7994750">SDS</a>                       
-                    </li>
-                    <li>DSC Defoamer (Alcohol Based)
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDefoamer_(DSC%20Alcohol%20Based)_GHS_SDS.pdf?alt=media&token=745cfdb3-9fb4-4451-a175-1d6b1bb89235">SDS</a> 
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20DEFOAMER.pdf?alt=media&token=2aa13499-9f0b-4d87-b601-cddd14f6bad4">TDS</a>                      
-                    </li>
                     <li>DSC CFL-500L (Diacel)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDiacel_CFL-500L_sds.pdf?alt=media&token=282768e9-0bf9-4231-9bf1-b46c05725beb">SDS</a>   
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FCement%20Fluid%20Loss%20Additive.pdf?alt=media&token=2536bd87-1173-47fe-bee7-3888da6b7436">TDS</a>                     
+                    </li>
+                    <li>DSC Vis   
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20VIS.pdf?alt=media&token=6bab7739-c7f6-4431-9acc-feba914cd5a5">TDS</a>                  
+                    </li>
+                    <li>DSC Well Wash I
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWell_Wash_I.pdf?alt=media&token=1c48649b-2275-41e2-b483-e8ee2339efd2">SDS</a>     
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20WELL%20WASH%20I.pdf?alt=media&token=e26d555e-69c2-49c4-83e1-28e49e02987e">TDS</a>                  
+                    </li>
+                    <li>DSC Well Wash II
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWell%20Wash_II.pdf?alt=media&token=32db01a7-235e-49f9-8de3-dcbb4b00a618">SDS</a>                       
                     </li>
                     <li>Erythorbic Acid
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FErythorbic_Acid_GHS_SDS.pdf?alt=media&token=4eb84abc-6c90-4af1-881a-7fc6ce57d116">SDS</a>                       
@@ -244,7 +254,7 @@ const Products = () => {
                     <li>FOAM BLAST 390M Defoamer
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FFOAM_BLAST__390M_Defoamer_GHS_SDS.pdf?alt=media&token=35584f3e-78a4-425a-936f-61778dd329ca">SDS</a>                       
                     </li>
-                    <li> Sigma Aldrich (Ferric Chloride Solution)
+                    <li> Ferric Chloride Solution
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FFerric_chloride_solution_sigma_aldrich.pdf?alt=media&token=18e4bd64-048c-4f9a-bad0-64575fd20162">SDS</a>                       
                     </li>
                     <li>GEOVIS XT
@@ -276,17 +286,20 @@ const Products = () => {
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FKO1200_GHS_SDS.pdf?alt=media&token=d40b6102-00a1-46a0-a6c7-917850b95f93">SDS</a>          
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FKO%201200.pdf?alt=media&token=8160ebbd-0e05-4a78-9e66-20e567f92580">TDS</a>                
                     </li>  
-                    <li>LVT 200 (PEN1090-00-C)
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FLVT_200_PEN1090-00-C_US_GHS_English-Copy.pdf?alt=media&token=636b9929-bc68-4675-aae5-017c7e9973f8">SDS</a>                       
-                    </li>
                     <li>Lactane
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FLactane%20SDS.pdf?alt=media&token=23188c64-12df-4497-bcb4-ee124b1808cd">SDS</a>                       
+                    </li>
+                    <li>LVT 200 (PEN1090-00-C)
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FLVT_200_PEN1090-00-C_US_GHS_English-Copy.pdf?alt=media&token=636b9929-bc68-4675-aae5-017c7e9973f8">SDS</a>                       
                     </li>
                     <li>LX 200 Gas Check Cement Additive        
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2Fdsc%20lx-200%20_dsc%20cement%20gas%20control%20latex%20fluid%20loss%20agent_.pdf?alt=media&token=54098aa0-5816-43f0-957f-e728e82a8a3a">TDS</a>                
                     </li> 
                     <li>Methanol
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FMethanol-MSDS-GHS_SDS%206-1-15.pdf?alt=media&token=01b9a710-4ceb-4c95-a77a-13a937f6b898">SDS</a>                       
+                    </li>
+                    <li>MIRANOL FBS
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_VERSION_MIRANOL_FBS_SDS.pdf?alt=media&token=c2e090ae-0cf1-4799-aaa2-5229b7994750">SDS</a>                       
                     </li>
                     <li>NTA(Nitrilotriacetic Acid, Trisodium Salt, Monohydrate)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FNTA_DSC_GHS.pdf?alt=media&token=3883c136-cdac-443e-9e07-ca6f8b5c2e36">SDS</a>                       
@@ -432,14 +445,7 @@ const Products = () => {
                     <li>WD-24
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWD-24_ghs_final.pdf?alt=media&token=6eccc088-7a54-4e59-b241-546dc371fe6d">SDS</a>      
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FWD-24-R.pdf?alt=media&token=efb0ae6d-3838-45a7-bf94-8660b1a0563a">TDS</a>                  
-                    </li> 
-                    <li>Well Wash I
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWell_Wash_I.pdf?alt=media&token=1c48649b-2275-41e2-b483-e8ee2339efd2">SDS</a>     
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20WELL%20WASH%20I.pdf?alt=media&token=e26d555e-69c2-49c4-83e1-28e49e02987e">TDS</a>                  
-                    </li>
-                    <li>Well Wash II
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWell%20Wash_II.pdf?alt=media&token=32db01a7-235e-49f9-8de3-dcbb4b00a618">SDS</a>                       
-                    </li> 
+                    </li>  
                     <li>Witconate P-1059
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FWitconate_P-1059ghssds.pdf?alt=media&token=0f14be35-4e36-421d-a153-7675c23982bd">SDS</a>                       
                     </li> 
