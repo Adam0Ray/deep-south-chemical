@@ -27,7 +27,26 @@ const contacts = documents ? documents.filter(document => {
   
   return (
     <div>
-      <h1 className="page-title">Contact List</h1>
+      <h1 className="page-title">Contact Information</h1>
+        <div className='contact-address'>
+          <div>
+            <h3>Deep South Chemical, Inc.</h3>
+              <p>P.O. Box 80657</p> 
+              <p>Lafayette, LA 70598-0657</p>
+              <p>Phone: (337) 837-9931</p>
+              <p>1-800-737-3546</p>
+              <p>Fax: (337) 837-9565</p>
+          </div>
+          <div>
+            <h3>	DSC Specialty Cleaning Tools Deep South Chemical, Inc.</h3>
+              <p>229 Millstone Road</p> 
+              <p>Broussard, Louisiana 70518 USA</p>
+              <p>Phone: (337) 837-9931</p>
+              <p>1-800-737-3546</p>
+              <p>Fax: (337) 837-9565</p>
+            </div>
+          </div>
+      <h2 >Contact List</h2>
       {error && <p className="error">{error}</p>}
       {documents && (
         <ContactFilter currentFilter={currentFilter} changeFilter={changeFilter} />

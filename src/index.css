@@ -487,6 +487,11 @@ float: inherit;
 }
 
 /* Contact filters */
+.contact-address {
+  columns: auto 2;
+  flex-wrap: wrap;
+}
+
 .contact-filter button{
   margin-left: 16px;
   text-decoration:none;

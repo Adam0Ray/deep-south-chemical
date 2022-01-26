@@ -24,12 +24,12 @@ export default function SpecialtyToolsList({tools}) {
                                 {tool.benefit5 !=undefined && <li>{tool.benefit5}</li>}
                             {tool.feature1 !=undefined && <h4>Features</h4>}
                                 {tool.feature1 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature2 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature3 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature4 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature5 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature6 !=undefined && <li>{tool.feature1}</li>}
-                                {tool.feature7 !=undefined && <li>{tool.feature1}</li>}
+                                {tool.feature2 !=undefined && <li>{tool.feature2}</li>}
+                                {tool.feature3 !=undefined && <li>{tool.feature3}</li>}
+                                {tool.feature4 !=undefined && <li>{tool.feature4}</li>}
+                                {tool.feature5 !=undefined && <li>{tool.feature5}</li>}
+                                {tool.feature6 !=undefined && <li>{tool.feature6}</li>}
+                                {tool.feature7 !=undefined && <li>{tool.feature7}</li>}
                         </div>
                         {tool.specURL !=undefined && <div className="tool-photo-content">
                             <SpecialtyToolsSpecs src={tool.specURL} />
