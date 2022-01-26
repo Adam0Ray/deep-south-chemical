@@ -1,7 +1,3 @@
-
-import { Link } from "react-router-dom"
-// const filterList = ['all', 'Corporate Office', 'Louisiana Regional Office', 'DSC Nigeria', 'DSC Angola Africa', 'DSC Middle East']
-
 export default function ContactList({contacts}) {
 
     

@@ -18,7 +18,7 @@ const Navbar = () => {
                         {!user && (
                             <>
                             <Link to="/login">Employee Login</Link>
-                            <Link to="/signup">Employee Signup</Link>
+                            {/* <Link to="/signup">Employee Signup</Link> */}
                             </>
                         )}
                         {user && (

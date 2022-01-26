@@ -36,12 +36,3 @@ const contacts = documents ? documents.filter(document => {
     </div>
   )
 }
-
-
-
-// return (  
-//     <div className="contact-container">
-//         <>{showContacts && <ContactList/>}</>
-        
-//     </div>
-// );

@@ -93,19 +93,15 @@ const Products = () => {
                     <li>DSC 2000 SI (Scale Inhibitor)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%202000%20SI%20product%20data%20sheet.pdf?alt=media&token=07759425-c346-4cbc-ab7c-9004c69d0cf4">TDS</a>                       
                     </li>
-                    <li>DSC Base Fluid 100
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20Base%20Fluid%20100.pdf?alt=media&token=e6039ef0-9ca9-4539-9c85-882181aa33b6">TDS</a>   
-                    </li>
-                    <li>DSC Extender 75
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC%20Extender%2075.pdf?alt=media&token=8813dcdb-dc4e-4072-8962-a20ef806ac80">SDS</a>                       
-                    </li>
-                    <li>DSC Corrosion Inhibitor
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_300_Corrosion_inhibitor.pdf?alt=media&token=c52450a2-d218-4adb-b00f-cf7ab471f2f1">SDS</a>    
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20300.pdf?alt=media&token=2d74fa87-5ceb-42b1-bfef-c2071bd9f18e">TDS</a>                   
-                    </li>
                     <li>DSC 350
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_350.pdf?alt=media&token=dff833fe-c7cd-48e4-8024-0a99a855605f">SDS</a>   
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20350.pdf?alt=media&token=e441714a-8fd3-44d5-bf41-fc388ba29b39">TDS</a>                      
+                    </li>
+                    <li>DSC Base Fluid 100
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20Base%20Fluid%20100.pdf?alt=media&token=e6039ef0-9ca9-4539-9c85-882181aa33b6">TDS</a>   
+                    </li>
+                    <li>DSC Basol
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20BASOL.pdf?alt=media&token=2b2abe7d-fc7f-437e-9b1a-fdea56fc1207">TDS</a>   
                     </li>
                     <li>DSC Blue Max
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Blue_Max.pdf?alt=media&token=e6f915fc-f774-4768-9f49-327ef41b4167">SDS</a> 
@@ -118,6 +114,10 @@ const Products = () => {
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Cide_GHS.pdf?alt=media&token=a43d88ef-14f0-4220-bf90-e057fb183b49">SDS</a>  
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20CIDE.pdf?alt=media&token=71de8412-a079-4521-9816-4df361e989e7">TDS</a>                      
                     </li>
+                    <li>DSC Corrosion Inhibitor
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_300_Corrosion_inhibitor.pdf?alt=media&token=c52450a2-d218-4adb-b00f-cf7ab471f2f1">SDS</a>    
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20300.pdf?alt=media&token=2d74fa87-5ceb-42b1-bfef-c2071bd9f18e">TDS</a>                   
+                    </li>
                     <li>DSC Defoamer (Alcohol Based)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDefoamer_(DSC%20Alcohol%20Based)_GHS_SDS.pdf?alt=media&token=745cfdb3-9fb4-4451-a175-1d6b1bb89235">SDS</a> 
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20DEFOAMER.pdf?alt=media&token=2aa13499-9f0b-4d87-b601-cddd14f6bad4">TDS</a>                      
@@ -125,6 +125,9 @@ const Products = () => {
                     <li>DSC Friction Reducer (liquid)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_FRICTION_REDUCER_SDS.pdf?alt=media&token=b90d8f92-a056-4b99-b745-98cd108c5384">SDS</a>  
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20Friction%20Reducer%20_Liquid_.pdf?alt=media&token=c8094a4f-4517-4f09-9d0a-177d2066ed21">TDS</a>                     
+                    </li>
+                    <li>DSC Extender 75
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC%20Extender%2075.pdf?alt=media&token=8813dcdb-dc4e-4072-8962-a20ef806ac80">SDS</a>                       
                     </li>
                     <li>DSC Friction Reducer (for water)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20LIQUID%20FRICTION%20REDUCER.pdf?alt=media&token=e8979677-4319-40fd-a28a-421f9667c017">TDS</a>                     
@@ -145,7 +148,8 @@ const Products = () => {
                     </li>
                     <li>DSC Gold Flush II
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Gold_Flush_II_GHS_SDS.pdf?alt=media&token=1d1e98bf-2a22-48ea-ab0a-c70abdd81a70">SDS</a>  
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20FLUSH%20II.pdf?alt=media&token=064842a5-4375-4938-ae47-1c1c93347ddd">TDS</a>                        
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20FLUSH%20II.pdf?alt=media&token=064842a5-4375-4938-ae47-1c1c93347ddd">TDS</a>     
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FUK-OCNS-GOLD_FLUSH_II.pdf?alt=media&token=5800b1a4-ccf2-42f8-9888-1d0785c05036">OCNS</a>                     
                     </li>
                     <li>DSC Gold Flush R
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Gold_Flush_R%20.pdf?alt=media&token=4fbb4a20-9100-4474-b3da-e17ecd285ffe">SDS</a>     
@@ -163,6 +167,10 @@ const Products = () => {
                     </li>
                     <li>DSC Gold Surf
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20SURF.pdf?alt=media&token=2f1b2e63-8297-4db5-923a-589810281ecf">TDS</a>                         
+                    </li>   
+                    <li>DSC Gold Surf 11-W
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC%20Gold%20Surf%2011-w%20SDS.pdf?alt=media&token=4b42f16d-eb39-4eef-b0da-fe709cc34b02">SDS</a>    
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FUK-OCNS-GOLD_SURF_II-W.pdf?alt=media&token=d8543815-2927-4ffb-9f6b-6b9dd20833ac">OCNS</a>                      
                     </li>
                     <li>DSC Gold Surf II
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Gold_Surf_II.pdf?alt=media&token=f0ebef40-da62-4c1e-b816-417be73e7fbc">SDS</a> 
@@ -172,11 +180,13 @@ const Products = () => {
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20SURF%20C.pdf?alt=media&token=b19578ca-558d-4d4e-80c4-c726c7d8f30d">TDS</a>                         
                     </li>
                     <li>DSC Gold Surf S
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20SURF%20S.pdf?alt=media&token=3c274089-1e67-4b69-b714-460a3399f8fc">TDS</a>                         
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20SURF%20S.pdf?alt=media&token=3c274089-1e67-4b69-b714-460a3399f8fc">TDS</a>     
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FUK-OCNS-GOLD_SURF_S.pdf?alt=media&token=1023bc42-d46d-49d6-a727-ca8a890ac322">OCNS</a>                        
                     </li>
                     <li>DSC Gold VIS
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_Gold_VIS.pdf?alt=media&token=4696fe59-9de6-4b74-8ce0-a4634ab44d89">SDS</a>  
-                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20VIS_Liquid.pdf?alt=media&token=558fbdc5-18e3-4488-97ad-4fe9b3196069">TDS</a>                      
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FDSC%20GOLD%20VIS_Liquid.pdf?alt=media&token=558fbdc5-18e3-4488-97ad-4fe9b3196069">TDS</a>           
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FUK-OCNS-GOLD_VIS.pdf?alt=media&token=c8900352-1f5e-46ba-907b-d6b2a966ab91">OCNS</a>              
                     </li>
                     <li>DSC HEC Linear Gel
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FDSC_HEC_Linear_Gel_E%20_GHS_SDS.pdf?alt=media&token=85c3119f-0f3d-4d73-8956-9f5e3c66736d">SDS</a>  
@@ -452,6 +462,9 @@ const Products = () => {
                     <li>XA-E Xantham Gum (Dry)
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FXA-E_DRY_XANTHAM_GUM.pdf?alt=media&token=4cb8b200-a624-4afe-9349-6347416a54d2">SDS</a>                       
                     </li>
+                    <li>XCD Polymer
+                        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/tds%2FXCD%20Polymer.pdf?alt=media&token=99ba62c0-22ea-4f8d-a61f-6517844cb1d2">TDS</a>                       
+                    </li> 
                     <li>Xylene
                         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/deep-south-chemical.appspot.com/o/sds%2FXylene_GHS_SDS.pdf?alt=media&token=d7bf3b06-5f33-4a1a-a26f-2dfd1fb039d5">SDS</a>                       
                     </li> 

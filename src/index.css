@@ -1,11 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* Services */
+.services-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.services-navbar a{
+  background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+    border-right: 1px solid #e4e4e4;
+    font-size: 0.9em;
+}
+.chemical-services-container {
+  margin: 10px;
+  padding: 0px;
+}
+.chemical-services-container h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border-bottom: solid 1px black;
+}
+.chemical-services-container h4 {
+  margin-left: 10px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.chemical-services-container li {
+  /* list-style-type: none;
+  margin-left: 20px; */
+}
+.pit-cleaning-contents{
+  align-content: center;
+}
+.wellbore-cleaning-contents{
+  align-content: center;
+}
+.chemical-services-container div {
+  margin: 0px;
+  padding: 0px;
+  }
+.chemical-services-container a:hover {
+  color:green;
+}
+.stimulation-chemicals a {
+  margin: 20px;
+}
 
 /* Specialty Tools */
 .speciality-tools-container a:hover {
   color:green;
 }
 .speciality-tools-container{
-width: auto;
+  width: auto;
 }
 .speciality-tools-container ul{
   margin: 0px;
@@ -61,12 +115,15 @@ width: auto;
   margin: 10px;
   padding: 0px;
 }
+.products{
+  columns: 2;
+}
 .products li{
   padding: 0px;
   margin: 0px;
-  border-bottom: black 1px solid;
   margin-top: 10px;
   list-style-type: none;
+
   
 }
 .products a{
@@ -78,7 +135,7 @@ width: auto;
 }
 /* Project Filter */
 .project-filter {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 .project-filter nav {
   display: flex;

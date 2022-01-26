@@ -21,6 +21,18 @@ import Project from './Components/Project'
 import Sidebar from './Components/SideBar/Sidebar'
 import OnlineUsers from './Components/OnlineUsers'
 
+//Services Components
+import ServicesOriginal from './Components/ServicesOriginal';
+import ServicesPit from './Components/ServicesPit';
+import ServicesWellbore from './Components/ServicesWellbore';
+import ServicesGel from './Components/ServicesGel';
+import ServicesStimulation from './Components/ServicesStimulation';
+import ServicesCorrosion from './Components/ServicesCorrosion';
+import ServicesUK from './Components/ServicesUK';
+import ServicesLab from './Components/ServicesLab';
+
+
+
 function App() {
   const {user, authIsReady} = useAuthContext()
 
@@ -49,7 +61,35 @@ function App() {
               <Contact/>
             </Route> 
             </Switch>
+
             
+            <Switch>
+              <Route exact path="/ServicesOriginal">
+                <ServicesOriginal/>
+              </Route>
+              <Route exact path="/ServicesPit">
+                <ServicesPit/>
+              </Route>
+              <Route exact path="/ServicesWellbore">
+                <ServicesWellbore/>
+              </Route>
+              <Route exact path="/ServicesGel">
+                <ServicesGel/>
+              </Route>
+              <Route exact path="/ServicesStimulation">
+                <ServicesStimulation/>
+              </Route>
+              <Route exact path="/ServicesCorrosion">
+                <ServicesCorrosion/>
+              </Route>
+              <Route exact path="/ServicesUK">
+                <ServicesUK/>
+              </Route>
+              <Route exact path="/ServicesLab">
+                <ServicesLab/>
+              </Route>
+            </Switch>
+
             <Switch>
               <Route exact path="/Dashboard">
                 {!user && <Redirect to='/Dashboard' />}
@@ -67,10 +107,10 @@ function App() {
                 {user && <Redirect to ='/Dashboard'/>}
                 {!user && <Login />}
               </Route>
-              <Route exact path="/Signup">
+              {/* <Route exact path="/Signup">
                 {user && <Redirect to ='/Dashboard'/>}
                 {!user && <Signup />}
-              </Route>
+              </Route> */}
             </Switch>
             
           </div>
