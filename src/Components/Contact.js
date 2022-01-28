@@ -12,7 +12,7 @@ const changeFilter = (newFilter) => {
 }
 const contacts = documents ? documents.filter(document => {
     switch(currentFilter) {
-      case 'all':
+      case 'All':
         return true
       case 'Corporate Office':
       case 'Louisiana Regional Office':

@@ -1,4 +1,4 @@
-const filterList = ['all', 'Corporate Office', 'Louisiana Regional Office', 'DSC Nigeria', 'DSC Angola Africa', 'DSC Middle East']
+const filterList = ['All', 'Corporate Office', 'Louisiana Regional Office', 'DSC Nigeria', 'DSC Angola Africa', 'DSC Middle East']
 
 export default function ContactFilter({ currentFilter, changeFilter }) {
 

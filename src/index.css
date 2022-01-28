@@ -4,9 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
-  border-bottom: 1px solid black;
+  background-color: rgb(236, 235, 235);
 }
 .services-navbar a{
   background: transparent;
@@ -15,8 +15,8 @@
     font-weight: bold;
     color: var(--text-color);
     cursor: pointer;
-    border-right: 1px solid #e4e4e4;
-    font-size: 0.9em;
+    border-right: .1vw solid grey;
+    font-size: .9em;
 }
 .chemical-services-container {
   margin: 10px;
@@ -94,8 +94,9 @@
 }
 .tool-specs img {
   margin-left: 150px;
-  max-height: 300px;
-  width: auto;
+  max-height: 25vh;
+  max-width: 60vw;
+  justify-content: left;
 }
 /* .tool-specs:hover {
   /* -webkit-transform: scale(2);
@@ -149,7 +150,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  background-color: #fff;
+  background-color: rgb(236, 235, 235);
   border-radius: 4px;
 }
 .project-filter p {
@@ -241,9 +242,6 @@
   line-height: 1.8em;
   font-size: 0.9em;
 }
-.project-summary .page-title{
-  margin: 0;
-}
 .project-summary h4 {
   color: var(--text-color);
   font-size: 0.9em;
@@ -334,18 +332,20 @@
 /* User list |Right side bar|  while logged in */
 .user-list .online-user {
   display: inline-block;
-  margin-right: 10px;
-  width: 12px;
-  height: 12px;
+  margin-right: 1vw;
+  min-width: 1vw;
+  min-height: 1vh;
+  width: 1vw;
+  height: 1vw;
   background: #0ebb50;
   border-radius: 50%;
   margin-top: 2px;
   align-items: left;
 }
 .user-list {
-  width: 200px;
-  min-width: 200px;
-  padding: 10px;
+  width: 20vw;
+  min-width: 20vw;
+  padding: 2vw;
   box-sizing: border-box;
   color: var(--heading-color);
 }
@@ -354,12 +354,14 @@
   margin-bottom: 40px;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .user-list .user-list-item {
   display: flex;
   align-items: center;
-  margin: 20px auto;
+  font-size: 1em;
+  margin: auto auto;
+  
 }
 .user-list h2{
   text-align: center;
@@ -368,16 +370,18 @@
   justify-content: stretch;
 }
 .user-list .avatar {
-  margin-left: 10px;
-  width: 40px;
-  height: 40px;
+  margin-left: 1vw;
+  width: 1em;
+  height: 1em;
+  min-width: 1em;
+  min-height: 1em;
 }
 
 /* User Avatar */
 .avatar {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 3em;
+  height: 3em;
   border-radius: 50%;
   overflow: hidden;
   margin: 0px;
@@ -391,8 +395,7 @@
 /* Left Sidebar while logged in */
 
 .sidebar {
-  width: 200px;
-  min-width: 200px;
+  min-width: 20vw;
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
@@ -403,14 +406,15 @@
 }
 .sidebar-content {
   position: fixed;
-  width: inherit;
+  width: 20vw;
   margin-left: 0px;
 }
 .sidebar .user {
   font-weight: bold;
   text-align: center;
+  max-width: 10vw;
   letter-spacing: 1px;
-  padding: 40px 30px;
+  padding: 1vw 1vw;
   border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .sidebar .links {
@@ -430,7 +434,9 @@
   padding: 0px;
   text-decoration: none;
   width: 100%;
-  color: #fff;
+  font-size: 2vw;
+  flex-wrap: wrap;
+  color: white;
   box-sizing: border-box;
 }
 .sidebar .links img {
@@ -440,7 +446,9 @@
 .sidebar .links a.active {
   color: #555;
   background: var(--bg-color);
-  border-radius: 20px 0 0 20px;
+
+  border-radius: 6px 0 0 6px;
+  max-width: 100%;
 }
 .sidebar .links .active img {
   filter: invert(40%);
@@ -457,20 +465,28 @@
 }
 
 .navbar a {
-  margin-left: 16px;
+  margin-left: 2vw;
   text-decoration:none;
-  padding: 6px;
+  padding: .25vw;
   background-color: tan;
   font-weight: bold;
-  border-radius: 8px;
+  font-size: min(2vw);
+  border-radius: .5em;
 }
 .navbar button {
-  margin-left: 0px;
+  /* margin-left: 0px;
   text-decoration:none;
   padding: 10px;
   background-color: tan;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 8px; */
+  margin-left: 16px;
+  text-decoration:none;
+  padding: .25vw;
+  background-color: tan;
+  font-weight: bold;
+  border-radius: .75vw;
+  font-size: 1.5vw;
 }
 .navbar button:hover {
   color:green;
@@ -488,8 +504,12 @@ float: inherit;
 
 /* Contact filters */
 .contact-address {
-  columns: auto 2;
-  flex-wrap: wrap;
+  columns: 2;
+
+}
+.contact-address div {
+  margin: 0px;
+  padding: 0px;
 }
 
 .contact-filter button{
@@ -542,7 +562,7 @@ list-style-type: none;
 /* Global styling */
 
 * {
-  margin: 10px;
+  margin: .5vw;
   font-family: "Quicksand";
   color: black;
 
@@ -550,19 +570,31 @@ list-style-type: none;
 h1 {
     color: black;
     background-color: tan;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 0px;
+    border-radius: .5em;
+    font-size: 2.5em;
+    margin: 6px;
+    padding: 0vw;
 }
 h2 {
   color: black;
   background-color: tan;
-  border-radius: 8px;
+  border-radius: .5em;
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
 }
 p {
   color: black;
   background-color: none;
-  border-radius: 8px;
+  border-radius: 6px;
+  font-size: .9em;
+}
+li{
+  font-size: 1em;
 }
 input {
   width: 200px;
@@ -573,8 +605,8 @@ input {
   padding: 6px;
   background-color: tan;
   font-weight: bold;
-  border-radius: 8px;
-  font-size: 8;
+  border-radius: .75vw;
+  font-size: 2vw;
 }
 
 
