@@ -15,7 +15,6 @@
     font-weight: bold;
     color: var(--text-color);
     cursor: pointer;
-    border-right: .1vw solid grey;
     font-size: .9em;
 }
 .chemical-services-container {
@@ -33,10 +32,6 @@
   margin-left: 10px;
   margin-top: 0px;
   padding: 0px;
-}
-.chemical-services-container li {
-  /* list-style-type: none;
-  margin-left: 20px; */
 }
 .pit-cleaning-contents{
   align-content: center;
@@ -474,12 +469,6 @@
   border-radius: .5em;
 }
 .navbar button {
-  /* margin-left: 0px;
-  text-decoration:none;
-  padding: 10px;
-  background-color: tan;
-  font-weight: bold;
-  border-radius: 8px; */
   margin-left: 16px;
   text-decoration:none;
   padding: .25vw;
@@ -572,7 +561,6 @@ h1 {
     background-color: tan;
     border-radius: .5em;
     font-size: 1.5em;
-    margin: 0vw;
     padding: 0vw;
     margin-top: 1vh;
 }

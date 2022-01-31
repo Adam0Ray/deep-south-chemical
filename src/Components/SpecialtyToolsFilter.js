@@ -1,4 +1,4 @@
-const filterList = ['all', 'DSC Gold Combo Scraper Brush', 'DSC Crossover Sub', 'DSC Casing Scraper Tool', 'DSC Jetting Tool', 'Casing Magnet','DSC Riser Brushing Tool','DSC "V" Brushing Tool']
+const filterList = ['All', 'DSC Gold Combo Scraper Brush', 'DSC Crossover Sub', 'DSC Casing Scraper Tool', 'DSC Jetting Tool', 'Casing Magnet','DSC Riser Brushing Tool','DSC "V" Brushing Tool']
 
 export default function SpecialtyToolsFilter({ currentFilter, changeFilter }) {
 

@@ -14,7 +14,7 @@ export default function SpecialtyTools() {
 
       const tools = documents ? documents.filter(document => {
         switch(currentFilter) {
-          case 'all':
+          case 'All':
             return true
           case 'DSC Gold Combo Scraper Brush':
           case 'DSC Crossover Sub':

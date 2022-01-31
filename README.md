@@ -4,7 +4,6 @@
 * [Summary](#summary)
 * [Technologies](#technologies)
 * [MVP](#mvp)
-* [Features](#features)
 * [Deployment](#deployment)
 * [About the Developer](#developer)
 
@@ -43,7 +42,7 @@ Database contains
 - User: email, password, display name, upload avatar, create projects
 - Contacts
 
-Deployment
+## <a name="Deployment"></a>Deployment
 - Firebase
 - Demo
 
