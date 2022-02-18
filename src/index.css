@@ -141,6 +141,9 @@
 .project-filter {
   margin: 10px auto;
 }
+.project-filter button:hover {
+  color:green;
+}
 .project-filter nav {
   display: flex;
   flex-wrap: wrap;
@@ -236,6 +239,9 @@
   color: var(--text-color);
   line-height: 1.8em;
   font-size: 0.9em;
+}
+.project-summary h2 {
+  margin: 0px;
 }
 .project-summary h4 {
   color: var(--text-color);
@@ -366,10 +372,10 @@
 }
 .user-list .avatar {
   margin-left: 1vw;
-  width: 1em;
-  height: 1em;
-  min-width: 1em;
-  min-height: 1em;
+  width: 2em;
+  height: 2em;
+  min-width: 2em;
+  min-height: 2em;
 }
 
 /* User Avatar */

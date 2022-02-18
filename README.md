@@ -1,4 +1,5 @@
 # Deep South Chemical
+https://deep-south-chemical.web.app/
 
 ## Table of Contents
 * [Summary](#summary)
@@ -43,8 +44,9 @@ Database contains
 - Contacts
 
 ## <a name="Deployment"></a>Deployment
+- https://deep-south-chemical.web.app/
 - Firebase
-- Demo
+
 
 ## <a name="developer"></a>About the Developer
 Adam Ray is a Petroleum Engineer by background.  Adam is software developer participating in the Perficient Bright Paths Program put on by DevMountain and HackBright Academy.
